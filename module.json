@@ -1,0 +1,30 @@
+{
+	"id": "dnd5e-correct-initiative-sorting",
+	"title": "Correct Initiative Sorting",
+	"description": "Exposes additional sorting options for DND5E initiative",
+	"authors": [
+		{
+			"name": "IHaveThatPower",
+			"flags": {}
+		}
+	],
+	"version": "0.0.1",
+	"compatibility": {
+		"minimum": "10"
+	},
+	"socket": false,
+	"esmodules": [
+		"esmodules/correct-initiative-sorting.js"
+	],
+	"relationships": {
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {
+					"verified": "1.12.12.0"
+				}
+			}
+		]
+	}
+}
